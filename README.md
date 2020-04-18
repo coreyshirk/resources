@@ -5,6 +5,6 @@ Resources and personal notes on programming
 | Topic         | File          |
 | ------------- |:-------------:|
 | Homebrew      | [homebrew.md](homebrew.md) |
-| Interview Prep | [Interview Prep Repo](https://github.com/coreyshirk/cracking-the-coding-interview)
+| Ethereum      | [ethereum-notes.md](ethereum-notes.md) |
 
 # Helpful Links
