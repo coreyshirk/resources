@@ -1,5 +1,6 @@
 # Ethereum Notes
 
+## Ethereum Accounts
 Account consists of three pieces:
 - Account Address (unique identifer to share)
 - Public Key
@@ -8,6 +9,7 @@ Account consists of three pieces:
 The combination of the public and private key are used to sign transactations.
 
 
+## Ethereum Blocks
 When a valid block is found, the block is broadcasted with:
 - Transaction list
 - Uncle list
