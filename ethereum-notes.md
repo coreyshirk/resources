@@ -22,3 +22,6 @@ When a valid block is found, the block is broadcasted with:
   - Gas used
   - Timestamp
   - Nonce
+
+## Solidity
+Developers write Ethereum Contract Definitions with Solidity, the Solidity Compiler spits out Bytecode and ABI (Application Binary Interface). The Bytecode is deployed to the Ethereum blockchain and ABI is the interface for the contract's Bytecode.
