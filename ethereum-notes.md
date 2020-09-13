@@ -22,6 +22,17 @@ When a valid block is found, the block is broadcasted with:
   - Gas used
   - Timestamp
   - Nonce
+## Ethereum Denominations
+| Unit                    | Wei Value | Wei                                       |
+|-------------------------|-----------|-------------------------------------------|
+| **wei**                 | 1 wei     | 1                                         |
+| **Kwei (babbage)**      | 1e3 wei   | 1,000                                     |
+| **Mwei (lovelace)**     | 1e6 wei   | 1,000,000                                 |
+| **Gwei (shannon)**      | 1e9 wei   | 1,000,000,000                             |
+| **microether (szabo)**  | 1e12 wei  | 1,000,000,000,000                         |
+| **milliether (finney)** | 1e15 wei  | 1,000,000,000,000,000                     |
+| **ether**               | 1e18 wei  | 1,000,000,000,000,000,000                 |
+
 
 ## Solidity
 Developers write Ethereum Contract Definitions with Solidity, the Solidity Compiler spits out Bytecode and ABI (Application Binary Interface). The Bytecode is deployed to the Ethereum blockchain and the ABI is the interface for the contract's Bytecode.
@@ -37,5 +48,3 @@ Developers write Ethereum Contract Definitions with Solidity, the Solidity Compi
 - Anytime that a transaction is submitted to the network it takes time to process. (15-30 seconds to execute)
 - When sending a transaction to a function it returns the transaction hash (identifies the transaction that occurs).
 - Sending a transaction to a function cost gas.
-
-
