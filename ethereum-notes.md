@@ -25,3 +25,11 @@ When a valid block is found, the block is broadcasted with:
 
 ## Solidity
 Developers write Ethereum Contract Definitions with Solidity, the Solidity Compiler spits out Bytecode and ABI (Application Binary Interface). The Bytecode is deployed to the Ethereum blockchain and the ABI is the interface for the contract's Bytecode.
+
+### Running Contract Functions
+| "Calling" a function | Sending a Transaction to a Function |
+|------------------------------------|-------------------------------|
+| Cannot modify the contract's data  | Can modify the contract data  |
+| Can return data                    | Takes time to execute         |
+| Runs instantly                     | Returns the transaction hash  |
+| Free to do.                        | Costs gas(ETH)!               |
