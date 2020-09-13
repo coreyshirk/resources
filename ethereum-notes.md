@@ -43,8 +43,14 @@ Developers write Ethereum Contract Definitions with Solidity, the Solidity Compi
 | Cannot modify the contract's data  | Can modify the contract data  |
 | Can return data                    | Takes time to execute         |
 | Runs instantly                     | Returns the transaction hash  |
-| Free to do.                        | Costs gas(ETH)!               |
+| Free to do.                        | Costs gas(ETH/Wei)!               |
 
 - Anytime that a transaction is submitted to the network it takes time to process. (15-30 seconds to execute)
 - When sending a transaction to a function it returns the transaction hash (identifies the transaction that occurs).
 - Sending a transaction to a function cost gas.
+
+### Gas and Transactions
+|Term | Definition |
+|-----|------------|
+|gasPrice | Amount of Wei the sender is willing to per unit of gas to get this transaction processed |
+|startGas/gasLimit | Units of gas that this transaction can consume |
